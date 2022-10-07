@@ -3,6 +3,9 @@ import cv2
 import random
 import time
 
+# Snake Game Code --> https://github.com/TheAILearner/Snake-Game-using-OpenCV-Python/blob/master/snake_game_using_opencv.ipynb
+
+
 
 def collision_with_apple(apple_position, score):
     apple_position = [random.randrange(1, 50) * 10, random.randrange(1, 50) * 10]
